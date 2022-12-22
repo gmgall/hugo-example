@@ -2,3 +2,10 @@ baseURL = 'http://example.org/'
 languageCode = 'pt-br'
 title = 'Meu portfólio'
 theme = 'basic'
+
+[params]
+  author = 'Guilherme Gall'
+  description = 'Meu site pessoal'
+
+  gh_url = 'https://api.github.com/users'
+  gh_user = 'gmgall'

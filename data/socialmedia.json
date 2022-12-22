@@ -1,0 +1,12 @@
+{ "accounts":
+  [
+    {
+      "name": "Last.fm",
+      "url": "https://www.last.fm/user/gmgall"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/gmgall/"
+    }
+  ]
+}
