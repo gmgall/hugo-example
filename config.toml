@@ -9,3 +9,5 @@ theme = 'basic'
 
   gh_url = 'https://api.github.com/users'
   gh_user = 'gmgall'
+
+  keywords = ['portfolio', 'software']

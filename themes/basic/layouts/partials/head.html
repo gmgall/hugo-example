@@ -9,6 +9,13 @@
   {{- end -}}
   </title>
   <meta name="author" content="{{ .Site.Params.author }}">
+  <meta name="keywords" content="
+    {{- with .Keywords -}}
+      {{ delimit . ", "}}
+    {{- else -}}
+      {{ delimit .Site.Params.keywords ", "}}
+    {{- end -}}
+  ">
   <meta name="description" content="
     {{- with .Page.Description -}}
       {{ . }}

@@ -1,3 +1,4 @@
 <footer>
-  <small>Copyleft {{now.Format "2006"}}</small>
+  <small>{{- partial "socialmedia.html" . -}}
+  🄯 {{ .Site.Params.author }} {{now.Format "2006"}}.</small>
 </footer>

@@ -4,7 +4,8 @@
     {{- if $index -}} , {{- end}}
     {
       "url": {{ .Permalink | jsonify }},
-      "title": {{ .Title | jsonify }}
+      "title": {{ .Title | jsonify }},
+      "tech_used": {{ .Params.tech_used | jsonify }}
     }
     {{- end }}
   ]
