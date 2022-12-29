@@ -9,6 +9,8 @@ categories:
 tags:
 - software
 - html
+year: "2022"
+month: "2022/12"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed velit dignissim sodales ut eu sem. Aliquam etiam erat velit scelerisque in dictum. Imperdiet proin fermentum leo vel orci porta. Aliquet bibendum enim facilisis gravida neque convallis a cras. Hendrerit dolor magna eget est. Odio aenean sed adipiscing diam donec adipiscing tristique risus nec. Leo duis ut diam quam. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Nunc sed augue lacus viverra vitae congue. Adipiscing elit duis tristique sollicitudin nibh. Sit amet mauris commodo quis imperdiet massa tincidunt nunc. Nulla facilisi nullam vehicula ipsum a arcu cursus. Habitant morbi tristique senectus et netus et malesuada fames ac. Dignissim diam quis enim lobortis. Risus quis varius quam quisque id diam vel.
 
