@@ -1,6 +1,9 @@
 {{ define "main" }}
 <article class="post">
   <header>
+    {{ with .Params.Headerimage -}}
+      <img src="{{ . }}">
+    {{ end -}}
     <h2>{{ .Title }}</h2>
     <p>
       Por {{ .Params.Author }}

@@ -3,7 +3,10 @@
   {{ .Content }}
 
   {{ range first 1 (where .Site.RegularPages "Type" "in" "projects").ByDate.Reverse }}
-    Meu projeto mais recente é <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>.
+    Meu projeto mais recente é <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
   {{ end }}
-
+  </br>
+  {{ range first 1 (where .Site.RegularPages "Type" "in" "posts").ByDate.Reverse }}
+    O post mais recente é do blog é <a href="{{ .RelPermalink }}">{{ .Title }}</a>.
+  {{ end }}
 {{ end }}
