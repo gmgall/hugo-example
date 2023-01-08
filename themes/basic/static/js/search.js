@@ -16,6 +16,7 @@ axios
       this.ref('href');
       this.field('title');
       this.field('body');
+      this.field('tech');
       response.data.results.forEach(e => {
         this.add(e);
       });

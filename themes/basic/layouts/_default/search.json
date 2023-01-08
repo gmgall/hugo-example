@@ -5,7 +5,8 @@
     {
       "href": {{ .Permalink | jsonify }},
       "title": {{ .Title | jsonify }},
-      "body": {{ .Content | plainify | jsonify }}
+      "body": {{ .Content | plainify | jsonify }},
+      "tech": {{ .Params.tech_used | jsonify }}
     }
     {{- end }}
   ]
